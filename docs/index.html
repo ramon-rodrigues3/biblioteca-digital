@@ -8,5 +8,25 @@
 <body>
     <h1>Biblioteca digital</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti laboriosam aliquid odit similique, ut eum praesentium assumenda voluptas enim necessitatibus iste laborum et quos consequuntur soluta ad mollitia dolores.</p>
+
+    <div id="mensagem" style="font-family: Arial, Helvetica, sans-serif; font-size: 30px;"></div>
+
+    <script>
+        // Função para carregar e exibir o nome do arquivo JSON
+        function carregarNome() {
+          fetch('teste.json') // Carrega o arquivo JSON
+            .then(response => response.json()) // Converte a resposta para JSON
+            .then(data => { // Manipula os dados
+              const nome = data.nome; // Obtém o nome do JSON
+              const mensagem = `Olá, ${nome}!`; // Monta a mensagem
+              document.getElementById('mensagem').innerText = mensagem; // Exibe a mensagem na página
+            })
+            .catch(error => console.error('Erro ao carregar o arquivo JSON:', error)); // Tratamento de erros
+        }
+    
+        // Chamada da função ao carregar a página
+        window.onload = carregarNome;
+      </script>
+
 </body>
 </html>
