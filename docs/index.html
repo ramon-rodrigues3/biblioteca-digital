@@ -14,19 +14,36 @@
     <script>
         // Função para carregar e exibir o nome do arquivo JSON
         function carregarNome() {
-          fetch('teste.json') // Carrega o arquivo JSON
-            .then(response => response.json()) // Converte a resposta para JSON
+          const urlParams = new URLSearchParams(window.location.search);
+          const parametro = urlParams.get('parametro');
+    
+          let arquivoJson;
+          if (parametro === '1') {
+            arquivoJson = 'teste.json';
+          } else {
+            arquivoJson = 'teste2.json';
+          }
+    
+          fetch(arquivoJson) // Carrega o arquivo JSON correspondente
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Erro ao carregar o arquivo JSON');
+              }
+              return response.json();
+            }) // Converte a resposta para JSON
             .then(data => { // Manipula os dados
               const nome = data.nome; // Obtém o nome do JSON
               const mensagem = `Olá, ${nome}!`; // Monta a mensagem
               document.getElementById('mensagem').innerText = mensagem; // Exibe a mensagem na página
             })
-            .catch(error => console.error('Erro ao carregar o arquivo JSON:', error)); // Tratamento de erros
+            .catch(error => {
+              console.error('Erro ao carregar o arquivo JSON:', error.message);
+              document.getElementById('mensagem').innerText = 'Erro ao carregar o arquivo JSON';
+            }); // Tratamento de erros
         }
     
         // Chamada da função ao carregar a página
         window.onload = carregarNome;
       </script>
-
 </body>
 </html>
