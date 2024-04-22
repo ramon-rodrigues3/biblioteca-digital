@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <h1>Biblioteca digital</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti laboriosam aliquid odit similique, ut eum praesentium assumenda voluptas enim necessitatibus iste laborum et quos consequuntur soluta ad mollitia dolores.</p>
+
+    <p id="mensagem" style="font-family: Arial, Helvetica, sans-serif; font-size: 30px;"></p>
+
+    <script>
+        // Função para carregar e exibir o nome do arquivo JSON
+        function carregarNome() {
+          const urlParams = new URLSearchParams(window.location.search);
+          const parametro = urlParams.get('parametro');
+    
+          let arquivoJson;
+          if (parametro === '1') {
+            arquivoJson = 'teste.json';
+          } else {
+            arquivoJson = 'teste2.json';
+          }
+    
+          fetch(arquivoJson) // Carrega o arquivo JSON correspondente
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Erro ao carregar o arquivo JSON');
+              }
+              return response.json();
+            }) // Converte a resposta para JSON
+            .then(data => { // Manipula os dados
+              const nome = data.nome; // Obtém o nome do JSON
+              const mensagem = `Olá, ${nome}!`; // Monta a mensagem
+              document.getElementById('mensagem').innerText = mensagem; // Exibe a mensagem na página
+            })
+            .catch(error => {
+              console.error('Erro ao carregar o arquivo JSON:', error.message);
+              document.getElementById('mensagem').innerText = 'Erro ao carregar o arquivo JSON';
+            }); // Tratamento de erros
+        }
+    
+        // Chamada da função ao carregar a página
+        window.onload = carregarNome;
+      </script>
+</body>
+</html>

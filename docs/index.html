@@ -1,49 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca Digital</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Digital</title>
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <h1>Biblioteca digital</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deleniti laboriosam aliquid odit similique, ut eum praesentium assumenda voluptas enim necessitatibus iste laborum et quos consequuntur soluta ad mollitia dolores.</p>
+  <header>
+      <a href="index.html">
+        <img src="imagens/biblioteca-digital-logo.png" alt="Logo">
+      </a>
+  </header>
 
-    <p id="mensagem" style="font-family: Arial, Helvetica, sans-serif; font-size: 30px;"></p>
+  <main>
+    <h1>Bem-vindo</h1>
+    <p>Bem-vindo à nossa Biblioteca Digital, um espaço dedicado à disseminação da cultura e ao acesso facilitado ao conhecimento. Nossa missão é tornar a cultura acessível a todos, independentemente de barreiras geográficas ou sociais.</p>  
+    <p>Atualmente disponhamos de 20 livros para os visitantes explorarem e estamos ansiosos para expandir ainda mais nossa coleção no futuro. Acreditamos que a cultura é um tesouro compartilhado e, portanto, convidamos todos a mergulhar nas páginas dessas obras literárias e descobrir novos horizontes</p>
+    <p>Essas obras são verdadeiras joias literárias, consagradas ao longo do tempo. Elas abrangem uma variedade de gêneros e estilos.Para facilitar a navegação e a descoberta, dividimos nosso acervo em quatro seções.</p>
+  </main>
 
-    <script>
-        // Função para carregar e exibir o nome do arquivo JSON
-        function carregarNome() {
-          const urlParams = new URLSearchParams(window.location.search);
-          const parametro = urlParams.get('parametro');
-    
-          let arquivoJson;
-          if (parametro === '1') {
-            arquivoJson = 'teste.json';
-          } else {
-            arquivoJson = 'teste2.json';
-          }
-    
-          fetch(arquivoJson) // Carrega o arquivo JSON correspondente
-            .then(response => {
-              if (!response.ok) {
-                throw new Error('Erro ao carregar o arquivo JSON');
-              }
-              return response.json();
-            }) // Converte a resposta para JSON
-            .then(data => { // Manipula os dados
-              const nome = data.nome; // Obtém o nome do JSON
-              const mensagem = `Olá, ${nome}!`; // Monta a mensagem
-              document.getElementById('mensagem').innerText = mensagem; // Exibe a mensagem na página
-            })
-            .catch(error => {
-              console.error('Erro ao carregar o arquivo JSON:', error.message);
-              document.getElementById('mensagem').innerText = 'Erro ao carregar o arquivo JSON';
-            }); // Tratamento de erros
-        }
-    
-        // Chamada da função ao carregar a página
-        window.onload = carregarNome;
-      </script>
+  <div>
+    <h2>Seções</h2>
+    <ul>
+      <li>
+        <a href="secao1.html">
+          <img src="imagens/flag-icon.png" alt="Imagem1">
+          <p>Clássicos Nacionais</p>
+        </a>
+      </li>
+      <li>
+        <a href="secao2.html">
+          <img src="imagens/global-icon.png" alt="Imagem1">
+          <p>Clássicos Mundiais</p>
+        </a>
+      </li>
+      <li>
+        <a href="secao3.html">
+          <img src="imagens/baby.png" alt="Imagem1">
+          <p>Literatura Infantil</p>
+        </a>
+      </li>
+      <li>
+        <a href="secao4.html">
+          <img src="imagens/rose.png" alt="Imagem1">
+          <p>Literatura Poética</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>Direitos Autorais</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae odit nihil, harum at sapiente totam inventore! Excepturi harum pariatur natus tempora velit id in odio iure. Omnis nihil optio ducimus?</p>
+  </div>
+
+  <footer>
+    <h2><a href="sobre.html">Quem somos?</a></h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa odit unde voluptate ab architecto? Et nihil libero quasi ipsum beatae fugit tempora, corrupti cum quod cupiditate voluptatum explicabo, adipisci est?</p>
+  </footer>
+
+  <script src="scripts/index.js"></script>
 </body>
 </html>
