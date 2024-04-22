@@ -10,10 +10,10 @@ function carregarLivro(livro) {
       .then(dados => {
         document.getElementById('capa').src = dados.capa;
         document.getElementById('titulo').textContent = dados.titulo;
-        document.getElementById('autor').textContent = dados.autor;
+        document.getElementById('nome').textContent = dados.autor;
         document.getElementById('ano').textContent = dados.ano;
-        document.getElementById('numPaginas').textContent = dados.num_paginas;
-        document.getElementById('editora').textContent = dados.editora;
+        document.getElementById('paginas').textContent = dados.num_paginas;
+        document.getElementById('fonte').textContent = dados.editora;
         document.getElementById('descricao').textContent = dados.descricao;
         pdf_url = "imagens/baby.png";
         epub_url = dados.epub_url;
