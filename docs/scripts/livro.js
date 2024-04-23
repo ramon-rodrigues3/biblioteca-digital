@@ -1,5 +1,5 @@
 
-var pdf_url = "imagens/baby.png";
+var pdf_url;
 var epub_url;
 
 function carregarLivro(livro) {
@@ -15,7 +15,7 @@ function carregarLivro(livro) {
         document.getElementById('paginas').textContent = dados.num_paginas;
         document.getElementById('fonte').textContent = dados.editora;
         document.getElementById('descricao').textContent = dados.descricao;
-        pdf_url = "imagens/baby.png";
+        pdf_url = dados.pdf_url;
         epub_url = dados.epub_url;
       })
       .catch(error => console.error(`Erro ao carregar o livro "${livro}":`, error));

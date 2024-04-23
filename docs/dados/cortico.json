@@ -1,0 +1,11 @@
+{
+  "capa": "capas/",
+  "titulo": "O Cortiço",
+  "autor": "Aluísio Azevedo",
+  "ano": "1890",
+  "num_paginas": "122",
+  "editora": "Fundação Biblioteca Nacional",
+  "descricao": "O Cortiço é um romance naturalista do brasileiro Aluísio Azevedo publicado em 1890[1][2] que denuncia a exploração e as péssimas condições de vida dos moradores das estalagens ou dos cortiços cariocas do final do século XIX e posto a denunciar o capitalismo selvagem.",
+  "pdf_url" : "../livros/pdf/o-cortico.pdf",
+  "epub_url": "url"
+}

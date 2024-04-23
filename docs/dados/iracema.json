@@ -1,0 +1,11 @@
+{
+    "capa": "caminho/para/capa1.jpg",
+    "titulo": "Iracema",
+    "autor": "José de Alencar",
+    "ano": "1865",
+    "num_paginas": "75",
+    "editora": "Fundação Biblioteca Nacional",
+    "descricao": "Iracema (originalmente: Iracema - Lenda do Ceará) é um romance brasileiro publicado em 1865 e escrito por José de Alencar, fazendo parte da trilogia indianista do autor. Os outros dois romances pertencentes à trilogia são O Guarani e Ubirajara.",
+    "pdf_url" : "../livros/pdf/iracema.pdf",
+    "epub_url": "url"
+  }
