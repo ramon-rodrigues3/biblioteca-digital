@@ -6,6 +6,6 @@
     "num_paginas": "100",
     "editora": "Fundação Biblioteca Nacional",
     "descricao": "A Moreninha é um romance de autoria do escritor brasileiro Joaquim Manuel de Macedo (1820-1882), publicado em 1844.[1] A obra marca o início da ficção do romantismo brasileiro[2] e tem grande sucesso ainda nos dias de hoje. É considerado o primeiro romance tipicamente nacional, pois retratou hábitos da juventude burguesa carioca do século XIX, contemporânea à época de sua publicação",
-    "pdf_url" : "../livros/pdf/a-moreninha.pdf",
+    "pdf_url" : "https://github.com/ramon-rodrigues3/biblioteca-digital/blob/main/livros/pdf/a-moreninha.pdf",
     "epub_url": "url"
   }
