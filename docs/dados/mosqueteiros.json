@@ -1,0 +1,11 @@
+{
+    "capa": "capas/mosqueteiros.jpg",
+    "titulo": "Os Três Mosqueteiros",
+    "autor": "Alexandre Dumas",
+    "ano": "1844",
+    "num_paginas": "66",
+    "editora": "Le Livros",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/mosqueteiros.pdf",
+    "epub_url": "livros/epub/"
+  }

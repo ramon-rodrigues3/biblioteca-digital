@@ -35,12 +35,11 @@ function carregarLivro(livro) {
   
     pdf_button.addEventListener('click', function() {
       const urlArquivo = pdf_url;
-      const nomeArquivo = 'baby.png';
   
       const link = document.createElement('a');
       link.href = urlArquivo;
   
-      link.setAttribute('download', nomeArquivo);
+      link.setAttribute('download', '');
       link.setAttribute('target', "_blanked")
   
       link.click();

@@ -1,0 +1,11 @@
+{
+    "capa": "capas/frankenstein.jpg",
+    "titulo": "Frankenstein",
+    "autor": "Marry Shalley",
+    "ano": "1818",
+    "num_paginas": "205",
+    "editora": "Le Livros",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/frankenstein.pdf",
+    "epub_url": "livros/epub/"
+  }

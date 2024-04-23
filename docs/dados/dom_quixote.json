@@ -1,0 +1,11 @@
+{
+    "capa": "capas/quixote.jpg",
+    "titulo": "Dom Quixote de La Mancha",
+    "autor": "Miguel de Cervantes",
+    "ano": "1605",
+    "num_paginas": "308",
+    "editora": "Domínio Público",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/dom-quixote.pdf",
+    "epub_url": "livros/epub/"
+  }

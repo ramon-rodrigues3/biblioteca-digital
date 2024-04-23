@@ -1,0 +1,11 @@
+{
+    "capa": "capas/espumas.jpg",
+    "titulo": "Espumas Flutuantes",
+    "autor": "Castro Alves",
+    "ano": "1870",
+    "num_paginas": "90",
+    "editora": "Fundação Biblioteca Nacional",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/espumas.pdf",
+    "epub_url": "livros/epub/"
+  }

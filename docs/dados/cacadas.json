@@ -1,0 +1,11 @@
+{
+    "capa": "capas/cacadas.jpeg",
+    "titulo": "Caçadas de Pedrinho",
+    "autor": "Monteiro Lobato",
+    "ano": "1933",
+    "num_paginas": "84",
+    "editora": "Livro Livre",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/cacadas.pdf",
+    "epub_url": "livros/epub/"
+  }

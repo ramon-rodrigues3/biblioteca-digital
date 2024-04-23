@@ -1,0 +1,11 @@
+{
+    "capa": "capas/alice.jpg",
+    "titulo": "Alice no País das Maravilhas",
+    "autor": "Lewis Carroll",
+    "ano": "1865",
+    "num_paginas": "125",
+    "editora": "Ebooks Brasil",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/alice.pdf",
+    "epub_url": "livros/epub/"
+  }

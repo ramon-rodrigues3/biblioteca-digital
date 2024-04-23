@@ -1,0 +1,11 @@
+{
+    "capa": "capas/ilha.jpg",
+    "titulo": "A Ilha do Tesouro",
+    "autor": "Robert Louis Stevenson",
+    "ano": "1883",
+    "num_paginas": "30",
+    "editora": "Virtual Books",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/ilha.pdf",
+    "epub_url": "livros/epub/"
+}

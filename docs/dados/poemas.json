@@ -1,0 +1,11 @@
+{
+    "capa": "capas/poemas.jpg",
+    "titulo": "Poemas",
+    "autor": "Alphonsus de Guimaraens",
+    "ano": "",
+    "num_paginas": "6",
+    "editora": "USP",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/poemas.pdf",
+    "epub_url": "livros/epub/"
+  }

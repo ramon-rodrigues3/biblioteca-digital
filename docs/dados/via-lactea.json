@@ -1,0 +1,11 @@
+{
+    "capa": "capas/via-lactea.jpg",
+    "titulo": "Via-Láctea",
+    "autor": "Olavo Bilac",
+    "ano": "1888",
+    "num_paginas": "16",
+    "editora": "Fundação Biblioteca Nacional",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/via-lactea.pdf",
+    "epub_url": "livros/epub/"
+  }

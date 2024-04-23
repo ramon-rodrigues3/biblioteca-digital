@@ -128,8 +128,9 @@ a:hover{
 }
 
 table {
-width: 100%;
-border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 th, td {

@@ -1,0 +1,11 @@
+{
+    "capa": "capas/viagem.jpeg",
+    "titulo": "Viagem ao Centro da Terra",
+    "autor": "Júlio Verne",
+    "ano": "1864",
+    "num_paginas": "169",
+    "editora": "Desconhecida",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/viagem.pdf",
+    "epub_url": "livros/epub/"
+}

@@ -1,0 +1,11 @@
+{
+    "capa": "capas/sonetos.jpg",
+    "titulo": "Sonetos",
+    "autor": "Luís de Camões",
+    "ano": "1595",
+    "num_paginas": "62",
+    "editora": "USP",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/sonetos.pdf",
+    "epub_url": "livros/epub/"
+  }

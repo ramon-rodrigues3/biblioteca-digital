@@ -1,0 +1,11 @@
+{
+    "capa": "capas/principe.jpg",
+    "titulo": "O Pequeno Príncipe",
+    "autor": "Antoine de Saint-Exupéry",
+    "ano": "1943",
+    "num_paginas": "71",
+    "editora": "UFAC",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/pequeno.pdf",
+    "epub_url": "livros/epub/"
+  }

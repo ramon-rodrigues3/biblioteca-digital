@@ -1,0 +1,11 @@
+{
+    "capa": "capas/a-revolucao.png",
+    "titulo": "A Revolução dos Bichos",
+    "autor": "George Orwell",
+    "ano": "1945",
+    "num_paginas": "87",
+    "editora": "Universidade Estadual do Norte do Paraná",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/a-revolucao.pdf",
+    "epub_url": "livros/epub/"
+}

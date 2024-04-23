@@ -1,0 +1,11 @@
+{
+    "capa": "capas/divina.jpg",
+    "titulo": "A Divina Comédia",
+    "autor": "Dante Alighieri",
+    "ano": "1314",
+    "num_paginas": "788",
+    "editora": "Ebooks Brasil",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/divina.pdf",
+    "epub_url": "livros/epub/"
+  }

@@ -1,0 +1,11 @@
+{
+    "capa": "capas/conto.jpg",
+    "titulo": "Um Conto de Natal",
+    "autor": "Charles Dickens",
+    "ano": "1843",
+    "num_paginas": "35",
+    "editora": "USP",
+    "descricao": "",
+    "pdf_url" : "livros/pdf/um-conto.pdf",
+    "epub_url": "livros/epub/"
+  }
