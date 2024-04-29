@@ -10,18 +10,16 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
     background-color: #97caed;
-    text-align: center;
+    font-size: 18px;
 }
 
 body h1, h2{
     font-family: Gabriola, cursive;
-    margin : 10px 0px;
-}
-
-body p {
-    text-align: justify;
+    margin : 0px 0px 0px 0px;
+    color: #2280bf;
+    /*text-align: center;*/
 }
 
 header{
@@ -48,8 +46,28 @@ header > h1{
     text-align: center;
 }
 
-
 main{
+    max-width: 1000px;
+    background-color: white;
+    padding: 0px 20px 20px 20px;
+ 
+    margin: 40px auto;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+main  *{
+    text-indent: 20px;
+    margin-bottom: 10px;
+}
+
+main h1{
+    text-align: center;
+}
+
+body > div{
+    max-width: 1000px;
     width: 90%;
     background-color: white;
     padding: 20px;
@@ -60,18 +78,38 @@ main{
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-body > div{
-    width: 90%;
-    background-color: white;
-    padding: 20px;
- 
-    margin: 40px auto;
-    border-radius: 10px;
-
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+.secao {
+    box-sizing: border-box;
+    max-width: 1040px;
+    padding: 0px;
+    border: 0px;
 }
-main  *{
-    margin-bottom: 10px;
+
+.secao h1{
+    text-align: center;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+.secao ul{
+    padding: 20px;
+    text-align: center;
+}
+
+#nacional {
+    background-color: #3f612d;
+}
+
+#mundial {
+    background-color: #301a4b;
+}
+
+#infantil {
+    background-color: #f49d37;
+}
+
+#poesia {
+    background-color: #fb3640;
 }
 
 main button {
@@ -106,9 +144,10 @@ ul{
 
 footer{
     width: 100%;
-    background-color: #0f3a57;
+    background-color: #0F3A57;
     color: white;
     text-align: center;
+    padding: 20px;
     margin: 0px;
 }
 
@@ -150,4 +189,49 @@ height: auto;
 
 dt, dd{
     display: inline;
+}
+
+.grid_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* Isso cria um grid onde as colunas se ajustam automaticamente ao tamanho da tela */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 0; /* Remover o preenchimento padrão da ul */
+    list-style-type: none; /* Remover marcadores de lista */
+  }
+  
+.grid_container li {
+    /* width: 100px; */
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+li img{
+    width: 80%;
+    height: 80%;
+}
+
+.livro {
+    display: flex;
+}
+
+#capa{
+    max-width: 300px;
+}
+
+button {
+    margin: 10px 0px;
+    font-size: 25px;
+    background-color: #2280bf;
+    color: white;
+    outline: none;
+}
+
+button:hover{
+    border: 2px solid #97caedff;
+    cursor: pointer;
+}
+
+.aviso{
+    /*background-color: #45CB85;*/
 }

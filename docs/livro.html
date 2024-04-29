@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Digital</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -12,44 +13,36 @@
           <img src="imagens/biblioteca-digital-logo.png" alt="Logo">
         </a>
     </header>
-
-    <div>
-        <table>
-            <tbody>
-                <tr>
-                    <th style="width: 100px;"><img src="#" alt="Capa" id="capa"></th>
-                    <td>
-                        <h2 id="titulo">Título</h2>
-                        <div>
-                            <span>Autor: </span>
-                            <span id="nome">Nome</span>
-                        </div>
-                        <div>
-                            <span>Ano de publicação: </span>
-                            <span id="ano">1000</span>
-                        </div>
-                        <div>
-                            <span>Núm. páginas: </span>
-                            <span id="paginas">100 páginas</span>
-                        </div>
-                        <div>
-                            <span>Fonte: </span>
-                            <span id="fonte">Nome</span>
-                        </div>
-                        <button id="pdf_button">Download PDF</button>
-                        <button id="epub_button">Download EPUB</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <h2>Descrição</h2>
-                        <p id="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni reprehenderit ducimus adipisci vitae ut quidem nulla repellat fugiat obcaecati maiores beatae optio mollitia minima sequi culpa quae, voluptatem quos nesciunt!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus animi, qui esse saepe officiis culpa atque ab veritatis vel placeat temporibus fugiat cum asperiores officia velit veniam facere quaerat.</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    
+    <div class="livro">
+        <img src="" alt="capa" id="capa">
+        <div style="margin-left: 20px;">
+            <h1 id="titulo">Título</h1>
+            <h2>Dados:</h2>
+            <p>
+                <dt>Autor: </dt>
+                <dd id="nome">Nome</dd>
+            </p>
+            <p>
+                <dt>Ano publicação: </dt>
+                <dd id="ano">2000</dd>
+            </p>
+            <p>
+                <dt>Número de páginas: </dt>
+                <dd id="paginas">300</dd>
+            </p>
+            <p>
+                <dt>Fonte: </dt>
+                <dd id="fonte">Desconhecida</dd>
+            </p>
+            <p id="pdf_button">
+                <button>Download PDF</button>
+            </p>
+            <h2 style="text-align: left;">Descrição:</h1>
+            <p id="descricao"></p>
+        </div>
     </div>
+
     <script src="scripts/livro.js"></script>
 </body>
 </html>

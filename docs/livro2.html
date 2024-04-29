@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+          <img src="imagens/biblioteca-digital-logo.png" alt="Logo">
+        </a>
+    </header>
+
+    <div class="livro" style="background-color: transparent;">
+        <div class="fundo" style="display: flex; background-color: transparent;">
+            <img src="capas/divina.jpg" width="300px" alt="">
+            <div style="margin-left: 20px;">
+                <h2 style="text-align: left;">A Divina Comédia</h1>
+                <p>
+                    <dt>Autor: </dt>
+                    <dd id="nome">Nome</dd>
+                </p>
+                <p>
+                    <dt>Ano publicação: </dt>
+                    <dd>2000</dd>
+                </p>
+                <p>
+                    <dt>Número de páginas</dt>
+                    <dd>300</dd>
+                </p>
+                <p>
+                    <dt>Fonte: </dt>
+                    <dd>Biblioteca Nacional</dd>
+                </p>
+                <h2 style="text-align: left;">Descrição</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae temporibus delectus, reiciendis cum facilis fuga qui? Incidunt voluptatibus quos similique cupiditate, officia nemo eum voluptates consequatur, ducimus veniam, repudiandae sit.</p>
+            </div>
+        </div>
+        <div>
+           <button>Download</button> 
+        </div>
+    </div>
+
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <th style="width: 20%;"><img src="capas/divina.jpg" alt="Capa" id="capa" style="width: 100%;"></th>
+                    <td>
+                        <h2 id="titulo">A Divina Comédia</h2>
+                        <div>
+                            <span>Autor: </span>
+                            <span id="nome">Nome</span>
+                        </div>
+                        <div>
+                            <span>Ano de publicação: </span>
+                            <span id="ano">1000</span>
+                        </div>
+                        <div>
+                            <span>Núm. páginas: </span>
+                            <span id="paginas">100 páginas</span>
+                        </div>
+                        <div>
+                            <span>Fonte: </span>
+                            <span id="fonte">Nome</span>
+                        </div>
+                        <button id="pdf_button">Download PDF</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h2>Descrição</h2>
+                        <p id="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni reprehenderit ducimus adipisci vitae ut quidem nulla repellat fugiat obcaecati maiores beatae optio mollitia minima sequi culpa quae, voluptatem quos nesciunt!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam minus animi, qui esse saepe officiis culpa atque ab veritatis vel placeat temporibus fugiat cum asperiores officia velit veniam facere quaerat.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts/livro.js"></script>
+</body>
+</html>

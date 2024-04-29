@@ -6,6 +6,10 @@
   <title>Biblioteca Digital</title>
   <link rel="stylesheet" href="estilos/style.css">
   <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -17,48 +21,159 @@
   <main>
     <h1>Bem-vindo</h1>
     <p>Bem-vindo à nossa Biblioteca Digital, um espaço dedicado à disseminação da cultura e ao acesso facilitado ao conhecimento. Nossa missão é tornar a cultura acessível a todos, independentemente de barreiras geográficas ou sociais.</p>  
-    <p>Atualmente disponhamos de 20 livros para os visitantes explorarem e estamos ansiosos para expandir ainda mais nossa coleção no futuro. Acreditamos que a cultura é um tesouro compartilhado e, portanto, convidamos todos a mergulhar nas páginas dessas obras literárias e descobrir novos horizontes</p>
-    <p>Essas obras são verdadeiras joias literárias, consagradas ao longo do tempo. Elas abrangem uma variedade de gêneros e estilos.Para facilitar a navegação e a descoberta, dividimos nosso acervo em quatro seções.</p>
   </main>
 
-  <div>
-    <h2>Seções</h2>
-    <ul>
+  <div class="secao">
+    <h1 id="nacional">Clássicos Nacionais</h1>
+    <ul class="grid_list">
       <li>
-        <a href="secao1.html">
-          <img src="imagens/flag-icon.png" alt="Imagem1">
-          <p>Clássicos Nacionais</p>
+        <a href="livro.html?livro=ateneu">
+          <img src="capas/ateneu-capa.jpg" alt="">
+          <p>O Ateneu</p>
         </a>
       </li>
       <li>
-        <a href="secao2.html">
-          <img src="imagens/global-icon.png" alt="Imagem1">
-          <p>Clássicos Mundiais</p>
+        <a href="livro.html?livro=cortico">
+          <img src="capas/cortico.jpg" alt="">
+          <p>O Cortiço</p>
         </a>
       </li>
       <li>
-        <a href="secao3.html">
-          <img src="imagens/baby.png" alt="Imagem1">
-          <p>Literatura Infantil</p>
+        <a href="livro.html?livro=iracema">
+          <img src="capas/iracema.jpg" alt="">
+          <p>Iracema</p>
         </a>
       </li>
       <li>
-        <a href="secao4.html">
-          <img src="imagens/rose.png" alt="Imagem1">
-          <p>Literatura Poética</p>
+        <a href="livro.html?livro=dom_casmurro">
+          <img src="capas/casmurro.jpg" alt="">
+          <p>Dom Casmurro</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=moreninha">
+          <img src="capas/moreninha.jpg" alt="">
+          <p>A Moreninha</p>
         </a>
       </li>
     </ul>
   </div>
 
-  <div>
+  <div class="secao">
+    <h1 id="mundial">Clássicos Mundiais</h1>
+    <ul class="grid_list">
+      <li>
+        <a href="livro.html?livro=revolucao">
+          <img src="capas/a-revolucao.png" alt="">
+          <p>A Revolução dos Bichos</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=conto_natal">
+          <img src="capas/conto.jpg" alt="">
+          <p>Um Conto de Natal</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=dom_quixote">
+          <img src="capas/quixote.jpg" alt="">
+          <p>Dom Quixote</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=frankenstein">
+          <img src="capas/frankenstein.jpg" alt="">
+          <p>Frankenstein</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=mosqueteiros">
+          <img src="capas/mosqueteiros.jpg" alt="">
+          <p>Os Três Mosqueteiros</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="secao">
+    <h1 id="infantil">Literatura Infantil</h1>
+    <ul class="grid_list">
+      <li>
+        <a href="livro.html?livro=viagem">
+          <img src="capas/viagem.jpeg" alt="">
+          <p>Viagem ao Centro da Terra</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=principe">
+          <img src="capas/principe.jpg" alt="">
+          <p>O Pequeno Príncipe</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=ilha">
+          <img src="capas/ilha.jpg" alt="">
+          <p>A Ilha do Tesouro</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=alice">
+          <img src="capas/alice.jpg" alt="">
+          <p>Alice no País das Maravilhas</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=cacadas">
+          <img src="capas/cacadas.jpeg" alt="">
+          <p>Caçadas de Pedrinho</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="secao">
+    <h1 id="poesia">Literatura Poética</h1>
+    <ul class="grid_list">
+      <li>
+        <a href="livro.html?livro=divina">
+          <img src="capas/divina.jpg" alt="">
+          <p>A Divina Comédia</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=espumas">
+          <img src="capas/espumas.jpg" alt="">
+          <p>Espumas Flutuantes</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=via-lactea">
+          <img src="capas/via-lactea.jpg" alt="">
+          <p>Via-Láctea</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=sonetos">
+          <img src="capas/sonetos.jpg" alt="">
+          <p>Sonetos</p>
+        </a>
+      </li>
+      <li>
+        <a href="livro.html?livro=poemas">
+          <img src="capas/poemas.jpg" alt="">
+          <p>Poemas</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="aviso">
     <h2>Direitos Autorais</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae odit nihil, harum at sapiente totam inventore! Excepturi harum pariatur natus tempora velit id in odio iure. Omnis nihil optio ducimus?</p>
+    <p>Todos os livros disponíveis neste site estão em domínio público e são livres para serem distribuídos, reproduzidos, adaptados e utilizados sem a necessidade de autorização.</p>
   </div>
 
   <footer>
-    <h2><a href="sobre.html">Quem somos?</a></h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa odit unde voluptate ab architecto? Et nihil libero quasi ipsum beatae fugit tempora, corrupti cum quod cupiditate voluptatum explicabo, adipisci est?</p>
+    <p>2024 - Biblioteca Digital - <a href="sobre.html">Sobre Nós</a></p>
   </footer>
 
   <script src="scripts/index.js"></script>
